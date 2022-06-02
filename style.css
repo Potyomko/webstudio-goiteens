@@ -44,8 +44,8 @@ span {
 .list-item:focus,
 .link-list:hover,
 .link-list:focus,
-.link-list1:focus,
-.link-list1:hover
+.link-list-footer:focus,
+.link-list-footer:hover
 {
     color: #2196F3;
 }
@@ -96,7 +96,7 @@ span {
     line-height: 1.2;
     letter-spacing: 3%;
 }
-.tittle1{
+.list{
     color: #212121;
     font-style: 700;
     font-size: 14px;
@@ -114,14 +114,14 @@ span {
     line-height: 1.7;
     letter-spacing: 3%;
 }
-.paragraph1{
+.name{
     color: #212121;
     font-style: 500;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 3%;
 }
-.paragraph2{
+.profeshion{
     color: #757575;
     font-style: 400;
     font-size: 16px;
@@ -140,7 +140,7 @@ span {
     letter-spacing: 3%;
 }
 /*portfolio*/
-.link-list1{
+.link-list-footer{
     color: rgba(255, 255, 255, 0.6);
     font-style: 400;
     font-size: 14px;
@@ -151,26 +151,15 @@ span {
 .yce{
     background-color: #E5E5E5;
 }
-.button1,
-.text{
-    background-color: #F5F4FA;
-    color: #212121;
-    font-style: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 3%;
-    
+.filter-link{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 73px;
+    height: 38px;
+    padding: 6px, 22px;
 }
-
-.text:hover,
-.text:focus,
-.button1:hover,
-.button1:focus
-{
-    background-color: #2196F3;
-    color: #ffff;
-}
-.logo1{
+.logo-footer{
     color: white;
     font-family: Raleway, sans-serif;
     font-style: 700;
@@ -178,7 +167,7 @@ span {
     line-height: 1.2;
     letter-spacing: 3%;
 }
-.name{
+.usename{
     color: #212121;
     font-style: 700;
     font-size: 18px;
@@ -193,3 +182,4 @@ span {
     line-height: 1.9;
     letter-spacing: 3%;
 }
+/*запитати чи правильні кнопки*/
